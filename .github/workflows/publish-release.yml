@@ -33,3 +33,6 @@ jobs:
         run: ./gradlew extensions:tools:publishAllPublicationsToSonatypeRepository
       - name: Publish texture packer gradle plugins release to Sonatype repository
         run: ./gradlew extensions:gradle:texturepacker:publishAllPublicationsToSonatypeRepository
+
+permissions:
+  contents: read
